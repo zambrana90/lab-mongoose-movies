@@ -1,14 +1,11 @@
 # Dependency directory
 node_modules
 
-# Exclude Logs
-*.log*
-
-# Exclude the npm package lock file,
-# as libsass binary downloads might break again in the future
-package-lock.json
+# Debug log from npm
+npm-debug.log
 
 # Environment Variables should NEVER be published
 .env
 
-public/stylesheets/style.css*
+# added for maintainance purposes - not best  practice
+package-lock.json 
